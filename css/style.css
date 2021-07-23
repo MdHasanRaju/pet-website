@@ -19,7 +19,7 @@ body{
     }
 
 header{
-    background-image: url(/images/bg-body.gif);
+    background: url("/images/bg-body.gif");
     background-repeat: repeat-x;
     text-align: center;
    
@@ -120,6 +120,10 @@ nav ul li{
      color: #FFAC00;
  }
 
+ .blog-info div p span a:hover{
+     color: #310000;
+ }
+
  .form{
      background: #FFAC00;
      width: 300px;
@@ -154,8 +158,10 @@ nav ul li{
     border: 0;
     margin: 5px 5px 5px 0;
     cursor: pointer;
+
     
  }
+
 
 /*------------ 
   table-bar
@@ -193,6 +199,7 @@ nav ul li{
     background-repeat: no-repeat;
     text-align: center;
     color: #000000;
+    
 }
 .table >ul li:last-child a{
     width: 140px;
@@ -207,6 +214,10 @@ nav ul li{
 .table ul li a{
     text-decoration: none;
     display: inline-block;
+}
+
+.table ul li a:hover{
+    color: #8B2E05;
 }
 
 .aside{
@@ -244,10 +255,15 @@ nav ul li{
     text-decoration: none;
     display: inline-block;
     color: #7f7154;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
   
 }
+
+.aside div div ul li a:hover{
+    color: #FFAC00;
+}
+
 
 /*----------------
  category-section
