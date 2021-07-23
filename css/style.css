@@ -395,8 +395,8 @@ mobile-device
     }
 
 nav ul div {
-    transform: translate(-66px, -36px);
-     width: 300px;
+    transform: translate(-66px, -36.2px);
+    width: 300px;
 }
 
 nav ul div img{
@@ -409,8 +409,8 @@ nav ul li>a{
    
 }
 
-li.mobile-menu {
-    margin-top: -20px;
+li .mobile-menu {
+   
 }
 
 nav ul li:not(.mobile-menu){
