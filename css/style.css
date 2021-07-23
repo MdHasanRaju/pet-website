@@ -406,7 +406,11 @@ nav ul div img{
 nav ul li>a{
     display: inline-block;
     color: #fff;
-    margin-top: -15px;
+   
+}
+
+li.mobile-menu {
+    margin-top: -20px;
 }
 
 nav ul li:not(.mobile-menu){
