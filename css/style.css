@@ -75,7 +75,9 @@ nav ul li{
     padding: 0px 30px;
     height: 35px;
 }
-
+nav ul li a:hover{
+    color: #fff;
+}
    /* header-end */
 /* _________________ */
 
