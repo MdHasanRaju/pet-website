@@ -34,7 +34,7 @@ nav{
 
 }
 nav ul div{
-   transform:translateY(-35px);
+   transform:translateY(-36px);
     
 }
 nav ul{
@@ -46,6 +46,11 @@ nav ul li{
     list-style-type: none;
    
 }
+
+nav ul li>a{
+  display: none;
+}
+
 .ex-1{
     background-image: url(../images//menu-separator.gif);
     background-repeat: no-repeat;
@@ -60,6 +65,8 @@ nav ul li{
     padding: 0px 30px;
     height: 35px;
 }
+
+ 
 
 /* nav ul li:first-child a/ */ .home {
     background-image: url(../images//menu-hover.gif);
@@ -81,6 +88,9 @@ nav ul li a:hover{
    /* header-end */
 /* _________________ */
 
+
+/* banner-section
+------------------ */
 
 
 /*----------------
@@ -353,4 +363,62 @@ nav ul li a:hover{
 
  .petshop-color:hover a{
     color: #ffff;
+}
+
+
+/*-------------
+   media-query
+-------------- */
+
+/*-------------
+mobile-device
+---------------*/
+
+@media only screen and (max-width:688px) {
+    
+    header{
+    background-image:url('../images/bg-body.gif');
+    background-repeat: repeat-x;
+    text-align: center;
+    width: 411px;
+    }
+
+    header nav{
+        width: 100%;
+    }
+
+    header nav div {
+    width: 300px;
+}
+
+nav ul div {
+    transform: translate(-121px, -35px);
+}
+
+     /* header nav div{
+         width: 60px;
+     }
+
+    header nav div img{
+        width: 100%;
+    } */
+
+
+    /* banner-section
+    ------------------- */
+
+    .banner-section{
+        width: 100%;
+    }
+
+    .banner-section img{
+        width: 100%;
+    }
+
+
+    /* article-section
+    -------------------- */
+
+
+
 }
